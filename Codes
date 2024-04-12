@@ -1,0 +1,15 @@
+import time
+
+print("I can read your mind,and I can prove it. Put in a number")
+
+number = input()
+
+time.sleep(2) #makes the line sleep
+print("You are thinking of the number... ")
+time.sleep(1)
+print(number)
+
+
+
+input("y/n:    ")
+print("Yipeee!")
